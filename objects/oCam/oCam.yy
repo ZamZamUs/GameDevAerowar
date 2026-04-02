@@ -9,8 +9,8 @@
   "name":"oCam",
   "overriddenProperties":[],
   "parent":{
-    "name":"Aerowar",
-    "path":"Aerowar.yyp",
+    "name":"Sistem",
+    "path":"folders/Sistem.yy",
   },
   "parentObjectId":null,
   "persistent":false,

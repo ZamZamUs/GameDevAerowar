@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oUkuran",
+  "%Name":"oColl",
   "eventList":[],
   "managed":true,
-  "name":"oUkuran",
+  "name":"oColl",
   "overriddenProperties":[],
   "parent":{
-    "name":"Aerowar",
-    "path":"Aerowar.yyp",
+    "name":"Sistem",
+    "path":"folders/Sistem.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite17",
-    "path":"sprites/Sprite17/Sprite17.yy",
+    "name":"Sprite15",
+    "path":"sprites/Sprite15/Sprite15.yy",
   },
   "spriteMaskId":null,
   "visible":true,

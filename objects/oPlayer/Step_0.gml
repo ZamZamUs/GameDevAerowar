@@ -12,14 +12,14 @@ if (h != 0 || v != 0) {
     v /= len;
 }
 
-move_and_collide(h * spd, v * spd, oBorder);
+move_and_collide(h * spd, v * spd, oColl);
 
 if (h > 0) { sprite_index = Sprite1; }
 if (h < 0) { sprite_index = Sprite2; }
 if (v > 0) { sprite_index = Sprite3; }
 if (v < 0) { sprite_index = Sprite4; }
 
-if (place_meeting(x, y, oBorder))
+if (place_meeting(x, y, oColl))
 {
     show_debug_message("Nabrak border!");
 }
