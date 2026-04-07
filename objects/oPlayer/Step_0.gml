@@ -1,6 +1,14 @@
 // Kecepatan gerak
 var spd = 1;
 
+
+// pause
+if (keyboard_check_pressed(vk_escape)) {
+	show_debug_message("Hello world");
+	paused = !paused;
+	update_paused();
+}
+
 // Input arah
 
 if(!paused){
@@ -33,12 +41,6 @@ if (place_meeting(x, y, oColl))
 if (keyboard_check_pressed(vk_f11))
 {
     window_set_fullscreen(!window_get_fullscreen());
-}
-
-if (keyboard_check_pressed(vk_escape)) {
-	show_debug_message("Hello world");
-	paused = !paused;
-	update_paused();
 }
 
 // ini buat interact

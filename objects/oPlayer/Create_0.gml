@@ -1,7 +1,6 @@
+interact_radius = 10
 
-interact_radius = 10;
-
-paused = false;
+paused = false
 
 update_paused = function(){
 	if (paused) {

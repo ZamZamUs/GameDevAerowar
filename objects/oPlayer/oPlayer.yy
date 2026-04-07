@@ -13,7 +13,10 @@
     "name":"Character",
     "path":"folders/Character.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"PauseSC",
+    "path":"objects/PauseSC/PauseSC.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
