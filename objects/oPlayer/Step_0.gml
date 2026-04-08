@@ -1,14 +1,6 @@
 // Kecepatan gerak
 var spd = 1;
 
-
-// pause
-if (keyboard_check_pressed(vk_escape)) {
-	show_debug_message("Hello world");
-	paused = !paused;
-	update_paused();
-}
-
 // Input arah
 
 if(!paused){
@@ -43,11 +35,17 @@ if (keyboard_check_pressed(vk_f11))
     window_set_fullscreen(!window_get_fullscreen());
 }
 
-// ini buat interact
+// fadein interact and pause
 
 if(collision_circle(x, y, interact_radius, oPoint, false, true))
 {
-	layer_set_visible("interact_layer", true);
+	show_interact = true
+	
+	Valpha = fade(Valpha, 1, fade_speed);
+	layer_text_alpha(text_id, Valpha)
 } else {
-	layer_set_visible("interact_layer", false);
+	show_interact = false
+	
+	Valpha = fade(Valpha, 0, fade_speed);
+	layer_text_alpha(text_id, Valpha)
 }

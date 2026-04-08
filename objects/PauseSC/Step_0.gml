@@ -28,3 +28,27 @@ switch(current_select) {
 		layer_text_blend(menu_button_id, c_yellow)
 	break;
 }
+
+if(oPlayer.paused){
+	layer_set_visible(layer_id, true)
+	Palpha = fade(Palpha, 0.8, fade_speed);
+	
+	for (var i = 0; i < array_length(ui_text); i++) {
+		layer_sprite_alpha(ui_text[i], Palpha);
+	}
+	
+	for (var i = 0; i < array_length(ui_sprites); i++) {
+		layer_sprite_alpha(ui_sprites[i], Palpha);
+	}
+} else {
+	Palpha = fade(Palpha, 0, fade_speed);
+	
+	for (var i = 0; i < array_length(ui_sprites); i++) {
+		layer_sprite_alpha(ui_sprites[i], Palpha);
+	}
+	
+	for (var i = 0; i < array_length(ui_text); i++) {
+		layer_sprite_alpha(ui_text[i], Palpha);
+	}
+	layer_set_visible(layer_id, Palpha > 0)
+}

@@ -1,28 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"TittleInteract",
+  "%Name":"AerowarLogo",
   "bboxMode":0,
-  "bbox_bottom":630,
-  "bbox_left":212,
-  "bbox_right":1713,
-  "bbox_top":476,
+  "bbox_bottom":758,
+  "bbox_left":5,
+  "bbox_right":1912,
+  "bbox_top":315,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5fc9d22a-91d4-4dc9-ae94-bbfdbd33b68c","name":"5fc9d22a-91d4-4dc9-ae94-bbfdbd33b68c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"4e35457c-c1b7-4600-9d41-977e57b9e102","name":"4e35457c-c1b7-4600-9d41-977e57b9e102","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"85385b15-20c6-45a8-9a8a-08fe08e0b5e7","name":"85385b15-20c6-45a8-9a8a-08fe08e0b5e7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ff1b3068-c8e9-4390-ab60-9354b099a912","blendMode":0,"displayName":"default","isLocked":false,"name":"ff1b3068-c8e9-4390-ab60-9354b099a912","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"bda67f87-b0db-46e5-b49a-c7b7cdb3fb74","blendMode":0,"displayName":"default","isLocked":false,"name":"bda67f87-b0db-46e5-b49a-c7b7cdb3fb74","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"TittleInteract",
+  "name":"AerowarLogo",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -34,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"TittleInteract",
+    "%Name":"AerowarLogo",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -50,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -58,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"TittleInteract",
+    "name":"AerowarLogo",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -70,11 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5fc9d22a-91d4-4dc9-ae94-bbfdbd33b68c","path":"sprites/TittleInteract/TittleInteract.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"608f4a43-7e81-4b38-87d9-daa475644b43","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4e35457c-c1b7-4600-9d41-977e57b9e102","path":"sprites/TittleInteract/TittleInteract.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dfd25850-2ece-4cb0-8718-d5b9696721c3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"85385b15-20c6-45a8-9a8a-08fe08e0b5e7","path":"sprites/AerowarLogo/AerowarLogo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c9e3e79a-5c4f-4bb9-bf43-b16eedea7b1d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
