@@ -46,6 +46,7 @@
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"SCsaveload","path":"scripts/SCsaveload/SCsaveload.yy",},},
     {"id":{"name":"AerowarLogo","path":"sprites/AerowarLogo/AerowarLogo.yy",},},
+    {"id":{"name":"background","path":"sprites/background/background.yy",},},
     {"id":{"name":"Basic3JalurBawah","path":"sprites/Basic3JalurBawah/Basic3JalurBawah.yy",},},
     {"id":{"name":"Basic3JalurKiri","path":"sprites/Basic3JalurKiri/Basic3JalurKiri.yy",},},
     {"id":{"name":"BasicGrass","path":"sprites/BasicGrass/BasicGrass.yy",},},

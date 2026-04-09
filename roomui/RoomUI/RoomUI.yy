@@ -2,6 +2,16 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUILayer":"v1","%Name":"homemenu","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"index","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"background","alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"FlexPanel_4","alignItems":2,"children":[
+                    {"$GMRSpriteGraphic":"v1","%Name":"graphic_BBF46B8","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_BBF46B8","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.2,"scaleY":0.2,"spriteId":{"name":"AerowarLogo","path":"sprites/AerowarLogo/AerowarLogo.yy",},"x":-192.0,"y":-108.0,},
+                  ],"flexDirection":0,"height":{"unit":2,"value":10.0,},"justifyContent":1,"name":"FlexPanel_4","nodeColour":4282970731,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":20.0,},},
+                {"$GMRSpriteGraphic":"v1","%Name":"graphic_735571FE","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_735571FE","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8,"scaleY":0.8,"spriteId":{"name":"background","path":"sprites/background/background.yy",},"x":-768.0,"y":-432.0,},
+              ],"flexDirection":0,"height":{"unit":2,"value":100.0,},"justifyContent":1,"name":"background","nodeColour":4294068311,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":100.0,},},
+          ],"flexDirection":0,"height":{"unit":2,"value":100.0,},"justifyContent":1,"name":"index","nodeColour":4294068311,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":100.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"homemenu","nodeColour":4282943986,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
     {"$GMRUILayer":"v1","%Name":"savedinformation","alignItems":1,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_3","alignItems":2,"children":[
             {"$GMRTextItem":"v3","%Name":"saved_tittle","alignment":256,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"saved_tittle","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"Saving progress ...","wrap":false,"x":0.0,"y":0.0,},

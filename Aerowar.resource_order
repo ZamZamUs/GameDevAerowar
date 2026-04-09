@@ -22,6 +22,7 @@
     {"name":"RoomUI","order":5,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"SCsaveload","order":7,"path":"scripts/SCsaveload/SCsaveload.yy",},
     {"name":"AerowarLogo","order":5,"path":"sprites/AerowarLogo/AerowarLogo.yy",},
+    {"name":"background","order":6,"path":"sprites/background/background.yy",},
     {"name":"Basic3JalurBawah","order":7,"path":"sprites/Basic3JalurBawah/Basic3JalurBawah.yy",},
     {"name":"Basic3JalurKiri","order":10,"path":"sprites/Basic3JalurKiri/Basic3JalurKiri.yy",},
     {"name":"BasicHorizontal","order":1,"path":"sprites/BasicHorizontal/BasicHorizontal.yy",},
