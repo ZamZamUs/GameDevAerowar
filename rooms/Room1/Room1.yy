@@ -23,6 +23,7 @@
     {"name":"inst_6AAF0FA5","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_55335B85","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2495B28F","path":"rooms/Room1/Room1.yy",},
+    {"name":"musictoggle","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
