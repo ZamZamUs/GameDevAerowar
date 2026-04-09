@@ -65,6 +65,7 @@
     {"id":{"name":"Building2","path":"sprites/Building2/Building2.yy",},},
     {"id":{"name":"Building3","path":"sprites/Building3/Building3.yy",},},
     {"id":{"name":"Jet","path":"sprites/Jet/Jet.yy",},},
+    {"id":{"name":"MainMenuBackground","path":"sprites/MainMenuBackground/MainMenuBackground.yy",},},
     {"id":{"name":"SerongKanan","path":"sprites/SerongKanan/SerongKanan.yy",},},
     {"id":{"name":"SerongKananA1","path":"sprites/SerongKananA1/SerongKananA1.yy",},},
     {"id":{"name":"SerongKananA2","path":"sprites/SerongKananA2/SerongKananA2.yy",},},
