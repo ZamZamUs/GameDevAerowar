@@ -39,7 +39,6 @@
     {"name":"Building2","order":5,"path":"sprites/Building2/Building2.yy",},
     {"name":"Building3","order":7,"path":"sprites/Building3/Building3.yy",},
     {"name":"Jet","order":1,"path":"sprites/Jet/Jet.yy",},
-    {"name":"MainMenuBackground","order":6,"path":"sprites/MainMenuBackground/MainMenuBackground.yy",},
     {"name":"SerongKanan","order":4,"path":"sprites/SerongKanan/SerongKanan.yy",},
     {"name":"SerongKananA1","order":5,"path":"sprites/SerongKananA1/SerongKananA1.yy",},
     {"name":"SerongKananA2","order":6,"path":"sprites/SerongKananA2/SerongKananA2.yy",},
