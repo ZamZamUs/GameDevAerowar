@@ -12,7 +12,6 @@
   "ResourceOrderSettings":[
     {"name":"fnt_main","order":1,"path":"fonts/fnt_main/fnt_main.yy",},
     {"name":"ConfirmSC","order":6,"path":"objects/ConfirmSC/ConfirmSC.yy",},
-    {"name":"oBuilding1","order":3,"path":"objects/oBuilding1/oBuilding1.yy",},
     {"name":"oBuilding2","order":6,"path":"objects/oBuilding2/oBuilding2.yy",},
     {"name":"oCam","order":1,"path":"objects/oCam/oCam.yy",},
     {"name":"oInteract","order":2,"path":"objects/oInteract/oInteract.yy",},
@@ -38,6 +37,7 @@
     {"name":"BlockUIT1","order":2,"path":"sprites/BlockUIT1/BlockUIT1.yy",},
     {"name":"Building1","order":2,"path":"sprites/Building1/Building1.yy",},
     {"name":"Building2","order":5,"path":"sprites/Building2/Building2.yy",},
+    {"name":"Building3","order":7,"path":"sprites/Building3/Building3.yy",},
     {"name":"Jet","order":1,"path":"sprites/Jet/Jet.yy",},
     {"name":"SerongKanan","order":4,"path":"sprites/SerongKanan/SerongKanan.yy",},
     {"name":"SerongKananA1","order":5,"path":"sprites/SerongKananA1/SerongKananA1.yy",},
@@ -52,5 +52,6 @@
     {"name":"Sprite4","order":4,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"StopAreaTW","order":5,"path":"sprites/StopAreaTW/StopAreaTW.yy",},
     {"name":"ThreeTW","order":6,"path":"sprites/ThreeTW/ThreeTW.yy",},
+    {"name":"Tree2","order":8,"path":"sprites/Tree2/Tree2.yy",},
   ],
 }

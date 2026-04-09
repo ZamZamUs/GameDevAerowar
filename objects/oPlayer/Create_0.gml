@@ -1,5 +1,7 @@
 interact_radius = 10
 
+inst = noone
+target_name = noone
 tips = true
 currentTips = 0
 

@@ -36,9 +36,9 @@ if (keyboard_check_pressed(vk_f11))
 }
 
 // interact handler
-var inst = collision_circle(x, y, interact_radius, oPoint, false, true);
+inst = collision_circle(x, y, interact_radius, oPoint, false, true);
 
-var targetName = "headquarters"
+targetName = "headquarters"
 if(currentTips < 3) {
 	switch(currentTips){
 		case 0: targetName = "headquarters" break;
@@ -53,17 +53,4 @@ if (inst != noone) {
 	oInteract.show_interact = true
 } else {
 	oInteract.show_interact = false
-}
-
-if (!tips) {
-	if (inst != noone) {
-		show_debug_message("Bebas : " + inst.function_name);
-	}
-} else {
-	if (inst != noone) {
-		if (inst.function_name == targetName) {
-			show_debug_message(targetName)
-			currentTips += 1
-		}
-	}
 }

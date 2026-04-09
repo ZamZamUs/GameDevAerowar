@@ -1,4 +1,4 @@
-alarm[0] = game_get_speed(gamespeed_fps) * 30;
+alarm[0] = game_get_speed(gamespeed_fps) * 120;
 
 show_saving_icon = false
 

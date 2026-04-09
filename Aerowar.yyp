@@ -33,7 +33,6 @@
   "resources":[
     {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},},
     {"id":{"name":"ConfirmSC","path":"objects/ConfirmSC/ConfirmSC.yy",},},
-    {"id":{"name":"oBuilding1","path":"objects/oBuilding1/oBuilding1.yy",},},
     {"id":{"name":"oBuilding2","path":"objects/oBuilding2/oBuilding2.yy",},},
     {"id":{"name":"oCam","path":"objects/oCam/oCam.yy",},},
     {"id":{"name":"oColl","path":"objects/oColl/oColl.yy",},},
@@ -64,6 +63,7 @@
     {"id":{"name":"BlockUIT1","path":"sprites/BlockUIT1/BlockUIT1.yy",},},
     {"id":{"name":"Building1","path":"sprites/Building1/Building1.yy",},},
     {"id":{"name":"Building2","path":"sprites/Building2/Building2.yy",},},
+    {"id":{"name":"Building3","path":"sprites/Building3/Building3.yy",},},
     {"id":{"name":"Jet","path":"sprites/Jet/Jet.yy",},},
     {"id":{"name":"SerongKanan","path":"sprites/SerongKanan/SerongKanan.yy",},},
     {"id":{"name":"SerongKananA1","path":"sprites/SerongKananA1/SerongKananA1.yy",},},
@@ -81,6 +81,7 @@
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"StopAreaTW","path":"sprites/StopAreaTW/StopAreaTW.yy",},},
     {"id":{"name":"ThreeTW","path":"sprites/ThreeTW/ThreeTW.yy",},},
+    {"id":{"name":"Tree2","path":"sprites/Tree2/Tree2.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

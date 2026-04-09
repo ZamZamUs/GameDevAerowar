@@ -1,6 +1,6 @@
 radius = 15;
 
-interact_layer_id = layer_get_id("interact_layer")
+layer_id = layer_get_id("interact_layer")
 fade_speed = 0.1
 Valpha = 0
 
