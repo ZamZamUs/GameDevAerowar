@@ -1,0 +1,1 @@
+show_saving_icon = false;

@@ -35,17 +35,35 @@ if (keyboard_check_pressed(vk_f11))
     window_set_fullscreen(!window_get_fullscreen());
 }
 
-// fadein interact and pause
+// interact handler
+var inst = collision_circle(x, y, interact_radius, oPoint, false, true);
 
-if(collision_circle(x, y, interact_radius, oPoint, false, true))
-{
-	show_interact = true
-	
-	Valpha = fade(Valpha, 1, fade_speed);
-	layer_text_alpha(text_id, Valpha)
+var targetName = "headquarters"
+if(currentTips < 3) {
+	switch(currentTips){
+		case 0: targetName = "headquarters" break;
+		case 1: targetName = "upgrade" break;
+		case 2: targetName = "start" break;
+	}
 } else {
-	show_interact = false
-	
-	Valpha = fade(Valpha, 0, fade_speed);
-	layer_text_alpha(text_id, Valpha)
+	tips = false
+}
+
+if (inst != noone) {
+	oInteract.show_interact = true
+} else {
+	oInteract.show_interact = false
+}
+
+if (!tips) {
+	if (inst != noone) {
+		show_debug_message("Bebas : " + inst.function_name);
+	}
+} else {
+	if (inst != noone) {
+		if (inst.function_name == targetName) {
+			show_debug_message(targetName)
+			currentTips += 1
+		}
+	}
 }
