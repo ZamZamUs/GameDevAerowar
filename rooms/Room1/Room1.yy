@@ -25,6 +25,9 @@
     {"name":"inst_2495B28F","path":"rooms/Room1/Room1.yy",},
     {"name":"musictoggle","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_33C4DD09","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_1CC14CED","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_7F33FE30","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_344AA542","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

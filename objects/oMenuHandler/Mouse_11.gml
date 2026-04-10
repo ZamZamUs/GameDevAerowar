@@ -1,0 +1,1 @@
+layer_text_blend(button_id, c_white)
