@@ -7,6 +7,5 @@ currentTips = 0
 
 show_interact = false
 
-paused = false	
-
+paused = false
 load_game()

@@ -1,5 +1,3 @@
-alarm[0] = game_get_speed(gamespeed_fps) * 120;
-
 show_saving_icon = false
 
 layer_id = layer_get_id("savedinformation")
@@ -21,4 +19,18 @@ fade = function(current, target, speedto){
     }
     
     return current;
+}
+
+var allow_save = false;
+
+if (instance_exists(oMenuHandler)) {
+    with (oMenuHandler) {
+        if (!Home_screen) {
+            other.allow_save = true;
+        }
+    }
+}
+
+if (allow_save) {
+    alarm[0] = game_get_speed(gamespeed_fps) * 60;
 }
