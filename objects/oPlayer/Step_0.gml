@@ -16,10 +16,10 @@ if(!paused){
 
 	move_and_collide(h * spd, v * spd, oColl);
 
-	if (h > 0) { sprite_index = Sprite1; }
-	if (h < 0) { sprite_index = Sprite2; }
-	if (v > 0) { sprite_index = Sprite3; }
-	if (v < 0) { sprite_index = Sprite4; }
+	if (h > 0) { sprite_index = PlayerR; }
+	if (h < 0) { sprite_index = PlayerL; }
+	if (v > 0) { sprite_index =	PlayerB; }
+	if (v < 0) { sprite_index = PlayerF; }
 }
 
 // ini buat playerny bekerja dengan collison
