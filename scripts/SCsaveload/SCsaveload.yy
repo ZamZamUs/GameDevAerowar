@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SCsaveload",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SCsaveload",
+  "parent":{
+    "name":"Sistem",
+    "path":"folders/Sistem.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

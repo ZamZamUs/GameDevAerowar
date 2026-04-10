@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Aerowar",
-    "path":"Aerowar.yyp",
+    "name":"NotPriority",
+    "path":"folders/NotPriority.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

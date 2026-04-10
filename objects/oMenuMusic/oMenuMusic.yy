@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oBorder",
-  "eventList":[],
+  "%Name":"oMenuMusic",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oBorder",
+  "name":"oMenuMusic",
   "overriddenProperties":[],
   "parent":{
-    "name":"Aerowar",
-    "path":"Aerowar.yyp",
+    "name":"GUI",
+    "path":"folders/GUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite15",
-    "path":"sprites/Sprite15/Sprite15.yy",
+    "name":"Unsilent",
+    "path":"sprites/Unsilent/Unsilent.yy",
   },
   "spriteMaskId":null,
   "visible":true,
