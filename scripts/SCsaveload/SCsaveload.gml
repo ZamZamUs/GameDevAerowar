@@ -22,6 +22,8 @@ function load_game() {
         file_text_close(_file);
 
         var _data = json_parse(_json_string);
+		
+		global.firstPlaying = _data.firstPlaying;
 
         if (instance_exists(oPlayer)) {
             oPlayer.tips = _data.tips;
