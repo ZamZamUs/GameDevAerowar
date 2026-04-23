@@ -1,7 +1,7 @@
 switch(current_select) {
 	case 1:
 		current_layer_name = "Resume"
-		oPlayer.paused = false
+		global.paused = false
 	break;
 	case 2:
 		current_layer_name = "Main menu"

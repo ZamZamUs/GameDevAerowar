@@ -1,3 +1,3 @@
-paused = !paused;
+global.paused = !global.paused
 
-show_debug_message("Gameplay " + (paused ? "paused" : "unpaused"));
+show_debug_message("Gameplay " + (global.paused ? "paused" : "unpaused"));

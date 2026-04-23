@@ -1,1 +1,3 @@
-show_debug_message("Ini fungsi untuk : " + function_heading)
+if(function_heading == "startgame"){
+	layer_set_visible(layer_id, false)
+}
