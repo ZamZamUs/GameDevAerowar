@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Code",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Code",
+  "parent":{
+    "name":"script",
+    "path":"folders/talk/script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
