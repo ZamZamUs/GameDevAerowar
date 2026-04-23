@@ -2,11 +2,12 @@ interact_radius = 10
 
 inst = noone
 target_name = noone
-tips = true
-currentTips = 0
+tips = false
+currentTips = 3
 
 show_interact = false
 
-paused = false	
+money = 0
+upgrade = 0
 
-load_game()
+paused = false	
