@@ -1,54 +1,45 @@
-if (showing_dialog && variable_struct_exists(current_dialog, "massage")) {
+// draw box (STATIC — no flashing)
+draw_set_color(c_black);
+draw_rectangle(100, 400, 700, 550, false);
 
-    var text_x = 1;
-    var border = 3;
-    var padding = 10;
+// draw sprite instead of rectangle
+draw_sprite(spr_command, 0, 100, 400);
 
-    // 🔧 get text height
-    var text_height = string_height(current_dialog.massage);
+// set font (bigger text)
+draw_set_font(font_dialog);
+draw_set_color(c_white);
 
-    // 🔧 sprite size
-    var sprite_w = sprite_get_width(spr_command);
-    var sprite_h = sprite_get_height(spr_command);
+// draw text
+draw_text(500, 520, displayed_text);
 
-    // 🔧 box height
-    var height = max(text_height, sprite_h) + padding * 2;
+// draw sprite
+draw_sprite(spr_command, 0, 100, 400);
 
-    // 🔧 dialog position (bottom)
-    var y_pos = display_get_gui_height() - height;
+// ---- BORDER ----
+draw_set_color(c_white);
 
-    // 🔧 text X (after sprite)
-    text_x = sprite_w + (padding * 2);
+// draw sprite
+draw_sprite(spr_command, 0, 100, 400);
 
-    draw_set_alpha(alpha);
+// border color
+draw_set_color(c_white);
 
-    // 🟩 BOX
-    draw_set_color(c_black);
-    draw_rectangle(0, y_pos, display_get_gui_width(), y_pos + height, false);
+// text
+draw_set_font(font_dialog);
+draw_set_color(c_white);
 
-    draw_set_color(c_white);
-    draw_rectangle(border, y_pos + border, display_get_gui_width() - border, y_pos + height - border, false);
+// border color
+draw_set_color(c_white);
 
-    draw_set_color(c_black);
-    draw_rectangle(border * 2, y_pos + border * 2, display_get_gui_width() - border, y_pos + height - border * 2, false);
+// thickness amount
+var t = 6;
 
-    // 🧍 SPRITE
-    var sprite_x = border * 3;
-    var sprite_y = y_pos + border * 3;
-    draw_sprite(spr_command, 0, sprite_x, sprite_y);
+// portrait box
+for (var i = 0; i < t; i++) {
+    draw_rectangle(80 - i, 390 - i, 420 + i, 700 + i, true);
+}
 
-    // ✅ TEXT IN THE MIDDLE (THIS IS THE FIX)
-    var text_y = y_pos + (height / 2) - (text_height / 2);
-
-    draw_set_color(c_white);
-    draw_text_ext(
-        text_x,
-        text_y,
-        current_dialog.massage,
-        16,
-        display_get_gui_width() - sprite_w - 300
-    );
-
-    // ✨ FADE
-    alpha = lerp(alpha, 1, 0.06);
+// text box
+for (var i = 0; i < t; i++) {
+    draw_rectangle(450 - i, 500 - i, 1300 + i, 700 + i, true);
 }

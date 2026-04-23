@@ -13,6 +13,7 @@
     {"name":"script","order":1,"path":"folders/talk/script.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"fnt_dialog","order":2,"path":"fonts/fnt_dialog/fnt_dialog.yy",},
     {"name":"fnt_main","order":1,"path":"fonts/fnt_main/fnt_main.yy",},
     {"name":"fnt_menu","order":2,"path":"fonts/fnt_menu/fnt_menu.yy",},
     {"name":"ConfirmSC","order":6,"path":"objects/ConfirmSC/ConfirmSC.yy",},

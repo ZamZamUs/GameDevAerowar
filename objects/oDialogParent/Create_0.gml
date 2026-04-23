@@ -1,9 +1,15 @@
-dialog = new Dialogue();
+// dialogue data
+dialogue = [];
+index = 0;
 
-key_next = vk_anykey;
+// typing effect
+full_text = "";
+displayed_text = "";
+char_index = 0;
+text_speed = 0.4; // higher = faster typing
 
-showing_dialog = false;
+// control
+is_typing = false;
 
-current_dialog = undefined;
-
-alpha = 0;
+// font (make sure you created one in GameMaker, e.g. fnt_dialog)
+font_dialog = fnt_dialog;

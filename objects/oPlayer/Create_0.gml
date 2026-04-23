@@ -10,4 +10,4 @@ show_interact = false
 money = 0
 upgrade = 0
 
-paused = false	
+global.paused = false	

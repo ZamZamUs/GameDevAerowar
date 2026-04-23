@@ -34,6 +34,7 @@
   },
   "name":"Aerowar",
   "resources":[
+    {"id":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},},
     {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},},
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"ConfirmSC","path":"objects/ConfirmSC/ConfirmSC.yy",},},

@@ -1,4 +1,4 @@
-function Dialogue() constructor {
+function dialoge() constructor {
 	
 	_dialogs = [];
 	
@@ -6,7 +6,7 @@ function Dialogue() constructor {
 		array_push(_dialogs, {
 			sprite: _sprite,
 			massage: _massage,
-		})
+		});
 	}
 	
 	pop = function() {
@@ -17,6 +17,6 @@ function Dialogue() constructor {
 	}
 	
 	count = function() {
-		return array_length(_dialogs);
+		return array_length(_dialogs)
 	}
 }

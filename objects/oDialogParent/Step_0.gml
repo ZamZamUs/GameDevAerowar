@@ -1,15 +1,36 @@
-if (!showing_dialog) {
-    if (dialog.count() <= 0) {
-        instance_destroy();
-        return;
+// typing effect
+if (is_typing) {
+    if (char_index < string_length(full_text)) {
+        char_index += text_speed;
+        displayed_text = string_copy(full_text, 1, char_index);
+    } else {
+        displayed_text = full_text;
+        is_typing = false;
     }
+}
+
+// advance dialogue
+if (keyboard_check_pressed(vk_space)) {
     
-    current_dialog = dialog.pop();
-    showing_dialog = true;
-    
-} else {
-    if (keyboard_check_released(key_next)) {
-        showing_dialog = false;
-        alpha = 0;
+    // if still typing → finish instantly
+    if (is_typing) {
+        displayed_text = full_text;
+        char_index = string_length(full_text);
+        is_typing = false;
+    }
+    else {
+        // next line
+        index++;
+        
+        if (index < array_length(dialogue)) {
+            full_text = dialogue[index];
+            char_index = 0;
+            displayed_text = "";
+            is_typing = true;
+        }
+        else {
+            // end dialogue
+            instance_destroy();
+        }
     }
 }

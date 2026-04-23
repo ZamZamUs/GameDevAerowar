@@ -1,4 +1,13 @@
-// Inherit the parent event
-event_inherited();
+event_inherited(); // ← THIS FIXES YOUR ERROR
 
-dialog.add(spr_command, "Hallo Private")
+dialogue = [
+    "Hello there...",
+    "This text types out nicely.",
+    "Press SPACE to continue."
+];
+
+index = 0;
+full_text = dialogue[index];
+displayed_text = "";
+char_index = 0;
+is_typing = true;
