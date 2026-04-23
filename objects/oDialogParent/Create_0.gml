@@ -6,7 +6,7 @@ index = 0;
 full_text = "";
 displayed_text = "";
 char_index = 0;
-text_speed = 0.4; // higher = faster typing
+text_speed = 0.3; // higher = faster typing
 
 // control
 is_typing = false;

@@ -3,7 +3,8 @@ event_inherited(); // ← THIS FIXES YOUR ERROR
 dialogue = [
     "Hello there...",
     "This text types out nicely.",
-    "Press SPACE to continue."
+    "Press SPACE to continue.",
+	"And Yeah I hope this Help's..."
 ];
 
 index = 0;
