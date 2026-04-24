@@ -30,7 +30,9 @@ if (keyboard_check_pressed(vk_space)) {
         }
         else {
             // end dialogue
+			room_goto(Room1)
             instance_destroy();
         }
     }
 }
+
