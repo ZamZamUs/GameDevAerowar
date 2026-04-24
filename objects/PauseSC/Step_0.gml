@@ -29,7 +29,7 @@ switch(current_select) {
 	break;
 }
 
-if(oPlayer.paused){
+if(global.paused){
 	layer_set_visible(layer_id, true)
 	Palpha = fade(Palpha, 0.8, fade_speed);
 	
