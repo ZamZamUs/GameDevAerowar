@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_animate_sprites",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_animate_sprites",
+  "parent":{
+    "name":"script",
+    "path":"folders/Plane/Enemy/heli/script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
