@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"SCsaveload",
   "parent":{
-    "name":"Sistem",
-    "path":"folders/Sistem.yy",
+    "name":"SaveScript",
+    "path":"folders/Sistem/SaveScript.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

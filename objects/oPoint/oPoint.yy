@@ -10,8 +10,8 @@
   "name":"oPoint",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sistem",
-    "path":"folders/Sistem.yy",
+    "name":"InteractOnly",
+    "path":"folders/Sistem/InteractOnly.yy",
   },
   "parentObjectId":{
     "name":"oInteract",
