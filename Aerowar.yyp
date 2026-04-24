@@ -48,7 +48,6 @@
     {"id":{"name":"oSaved","path":"objects/oSaved/oSaved.yy",},},
     {"id":{"name":"oSaveDebugger","path":"objects/oSaveDebugger/oSaveDebugger.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"SCsaveload","path":"scripts/SCsaveload/SCsaveload.yy",},},
     {"id":{"name":"AerowarLogo","path":"sprites/AerowarLogo/AerowarLogo.yy",},},
@@ -97,7 +96,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",

@@ -10,8 +10,8 @@
   "name":"oPaused",
   "overriddenProperties":[],
   "parent":{
-    "name":"Sistem",
-    "path":"folders/Sistem.yy",
+    "name":"GUI",
+    "path":"folders/GUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
