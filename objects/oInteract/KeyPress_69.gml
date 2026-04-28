@@ -10,6 +10,8 @@ if(collision_circle(x, y, radius, oPlayer, false, true))
 		
 		if(function_name == "headquarters"){
 			room_goto(Room2)
+		} else if(function_name == "start"){
+			show_debug_message("Start ?")
 		}
 	}
 }

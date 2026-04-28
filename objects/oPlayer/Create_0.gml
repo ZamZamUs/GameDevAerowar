@@ -5,6 +5,10 @@ target_name = noone
 tips = false
 currentTips = 3
 
+level = 1
+point = 100
+dialog = 2
+
 show_interact = false
 
 money = 0

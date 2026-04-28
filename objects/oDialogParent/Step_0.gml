@@ -30,6 +30,7 @@ if (keyboard_check_pressed(vk_space)) {
         }
         else {
             // end dialogue
+			index = 0
 			room_goto(Room1)
         }
     }
