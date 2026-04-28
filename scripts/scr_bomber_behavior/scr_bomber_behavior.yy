@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_bomber_behavior",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_bomber_behavior",
+  "parent":{
+    "name":"script",
+    "path":"folders/Plane/Enemy/bomber/script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
