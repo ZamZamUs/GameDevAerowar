@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_dialog","order":2,"path":"fonts/fnt_dialog/fnt_dialog.yy",},
+    {"name":"fnt_loadmenu","order":3,"path":"fonts/fnt_loadmenu/fnt_loadmenu.yy",},
     {"name":"fnt_main","order":1,"path":"fonts/fnt_main/fnt_main.yy",},
     {"name":"fnt_menu","order":2,"path":"fonts/fnt_menu/fnt_menu.yy",},
     {"name":"ConfirmSC","order":6,"path":"objects/ConfirmSC/ConfirmSC.yy",},
@@ -25,6 +26,7 @@
     {"name":"oCam","order":1,"path":"objects/oCam/oCam.yy",},
     {"name":"oDialog","order":1,"path":"objects/oDialog/oDialog.yy",},
     {"name":"oJet","order":4,"path":"objects/oJet/oJet.yy",},
+    {"name":"oLoad","order":15,"path":"objects/oLoad/oLoad.yy",},
     {"name":"oLoadingScreen","order":12,"path":"objects/oLoadingScreen/oLoadingScreen.yy",},
     {"name":"oMenuHandler","order":9,"path":"objects/oMenuHandler/oMenuHandler.yy",},
     {"name":"oMenuMusic","order":8,"path":"objects/oMenuMusic/oMenuMusic.yy",},
@@ -55,6 +57,7 @@
     {"name":"Building3","order":7,"path":"sprites/Building3/Building3.yy",},
     {"name":"HumveeT1","order":9,"path":"sprites/HumveeT1/HumveeT1.yy",},
     {"name":"Jet","order":1,"path":"sprites/Jet/Jet.yy",},
+    {"name":"Lock","order":10,"path":"sprites/Lock/Lock.yy",},
     {"name":"PlayerB","order":7,"path":"sprites/PlayerB/PlayerB.yy",},
     {"name":"PlayerF","order":6,"path":"sprites/PlayerF/PlayerF.yy",},
     {"name":"PlayerL","order":9,"path":"sprites/PlayerL/PlayerL.yy",},
@@ -70,6 +73,7 @@
     {"name":"StopAreaTW","order":5,"path":"sprites/StopAreaTW/StopAreaTW.yy",},
     {"name":"ThreeTW","order":6,"path":"sprites/ThreeTW/ThreeTW.yy",},
     {"name":"Tree2","order":8,"path":"sprites/Tree2/Tree2.yy",},
+    {"name":"Unlock","order":9,"path":"sprites/Unlock/Unlock.yy",},
     {"name":"Unsilent","order":7,"path":"sprites/Unsilent/Unsilent.yy",},
   ],
 }
