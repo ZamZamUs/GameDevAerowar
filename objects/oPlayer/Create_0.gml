@@ -18,8 +18,8 @@ if(variable_global_exists("lastXChar")){
 	x = global.lastXChar
 	y = global.lastYChar
 	
-	oCam.x = global.lastXCam
-	oCam.y = global.lastYCam
+	oCam.x = global.lastXChar
+	oCam.y = global.lastYChar
 }
 
 global.paused = false	
