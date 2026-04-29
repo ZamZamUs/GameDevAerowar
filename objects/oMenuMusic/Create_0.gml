@@ -1,1 +1,1 @@
-iconType = 1
+iconType = 1;

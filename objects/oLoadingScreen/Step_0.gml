@@ -35,7 +35,6 @@ else if (countLoading == 4) {
     if (alpha1 <= 0 && alpha2 <= 0 && alpha3 <= 0) {
         layer_set_visible(layer_id, false);
 		layer_set_visible("homemenu", true)
-		audio_play_sound(snd_mainmenu, 5, true)
         exit;
     }
 }
