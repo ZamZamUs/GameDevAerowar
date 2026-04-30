@@ -1,5 +1,6 @@
 {
   "$GMSprite":"v2",
+<<<<<<<< HEAD:sprites/HumveeT1/HumveeT1.yy
   "%Name":"HumveeT1",
   "bboxMode":0,
   "bbox_bottom":108,
@@ -7,11 +8,21 @@
   "bbox_right":92,
   "bbox_top":20,
   "collisionKind":4,
+========
+  "%Name":"Ruin_City",
+  "bboxMode":0,
+  "bbox_bottom":724,
+  "bbox_left":0,
+  "bbox_right":4339,
+  "bbox_top":0,
+  "collisionKind":1,
+>>>>>>>> origin/AeroTalk:sprites/Ruin_City/Ruin_City.yy
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
+<<<<<<<< HEAD:sprites/HumveeT1/HumveeT1.yy
     {"$GMSpriteFrame":"v1","%Name":"6c313e79-012c-45fd-94c8-c018f33ab2a4","name":"6c313e79-012c-45fd-94c8-c018f33ab2a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -22,6 +33,18 @@
     {"$GMImageLayer":"","%Name":"be28def7-4276-4bc6-8ebe-1817ab8a8ae0","blendMode":0,"displayName":"default","isLocked":false,"name":"be28def7-4276-4bc6-8ebe-1817ab8a8ae0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"HumveeT1",
+========
+    {"$GMSpriteFrame":"v1","%Name":"327cfeb2-3f30-46ca-9e2f-8f7663e0cf21","name":"327cfeb2-3f30-46ca-9e2f-8f7663e0cf21","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+  ],
+  "gridX":0,
+  "gridY":0,
+  "height":725,
+  "HTile":false,
+  "layers":[
+    {"$GMImageLayer":"","%Name":"484ceba5-206e-4593-91bd-67c4e5d0dc56","blendMode":0,"displayName":"default","isLocked":false,"name":"484ceba5-206e-4593-91bd-67c4e5d0dc56","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+  ],
+  "name":"Ruin_City",
+>>>>>>>> origin/AeroTalk:sprites/Ruin_City/Ruin_City.yy
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +56,11 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
+<<<<<<<< HEAD:sprites/HumveeT1/HumveeT1.yy
     "%Name":"HumveeT1",
+========
+    "%Name":"Ruin_City",
+>>>>>>>> origin/AeroTalk:sprites/Ruin_City/Ruin_City.yy
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +84,11 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
+<<<<<<<< HEAD:sprites/HumveeT1/HumveeT1.yy
     "name":"HumveeT1",
+========
+    "name":"Ruin_City",
+>>>>>>>> origin/AeroTalk:sprites/Ruin_City/Ruin_City.yy
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +100,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+<<<<<<<< HEAD:sprites/HumveeT1/HumveeT1.yy
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6c313e79-012c-45fd-94c8-c018f33ab2a4","path":"sprites/HumveeT1/HumveeT1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ab6aa5f2-db5e-4a7f-a207-84c5dcb1927e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+========
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"327cfeb2-3f30-46ca-9e2f-8f7663e0cf21","path":"sprites/Ruin_City/Ruin_City.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3810f0f8-79e3-4396-ba9f-a791b0bd6374","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+>>>>>>>> origin/AeroTalk:sprites/Ruin_City/Ruin_City.yy
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +122,9 @@
   },
   "type":0,
   "VTile":false,
+<<<<<<<< HEAD:sprites/HumveeT1/HumveeT1.yy
   "width":128,
+========
+  "width":4340,
+>>>>>>>> origin/AeroTalk:sprites/Ruin_City/Ruin_City.yy
 }

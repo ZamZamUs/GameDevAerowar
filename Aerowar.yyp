@@ -31,6 +31,7 @@
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_clouds-1.0.0","name":"io.gamemaker.gm_filter_clouds-1.0.0","path":"io.gamemaker.gm_filter_clouds-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
@@ -49,6 +50,9 @@
     {"id":{"name":"oBackM","path":"objects/oBackM/oBackM.yy",},},
     {"id":{"name":"oBROW","path":"objects/oBROW/oBROW.yy",},},
     {"id":{"name":"oBuilding2_1","path":"objects/oBuilding2_1/oBuilding2_1.yy",},},
+    {"id":{"name":"oBackground","path":"objects/oBackground/oBackground.yy",},},
+    {"id":{"name":"oBomber","path":"objects/oBomber/oBomber.yy",},},
+    {"id":{"name":"oBomberSpawner","path":"objects/oBomberSpawner/oBomberSpawner.yy",},},
     {"id":{"name":"oBuilding2","path":"objects/oBuilding2/oBuilding2.yy",},},
     {"id":{"name":"oBWASD","path":"objects/oBWASD/oBWASD.yy",},},
     {"id":{"name":"oCam","path":"objects/oCam/oCam.yy",},},
@@ -113,6 +117,7 @@
     {"id":{"name":"PlayerF","path":"sprites/PlayerF/PlayerF.yy",},},
     {"id":{"name":"PlayerL","path":"sprites/PlayerL/PlayerL.yy",},},
     {"id":{"name":"PlayerR","path":"sprites/PlayerR/PlayerR.yy",},},
+    {"id":{"name":"Ruin_City","path":"sprites/Ruin_City/Ruin_City.yy",},},
     {"id":{"name":"SerongKanan","path":"sprites/SerongKanan/SerongKanan.yy",},},
     {"id":{"name":"SerongKananA1","path":"sprites/SerongKananA1/SerongKananA1.yy",},},
     {"id":{"name":"SerongKananA2","path":"sprites/SerongKananA2/SerongKananA2.yy",},},
@@ -143,6 +148,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Mainmenu","path":"rooms/Mainmenu/Mainmenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Gameplay","path":"rooms/Gameplay/Gameplay.yy",},},
     {"roomId":{"name":"Dialog","path":"rooms/Dialog/Dialog.yy",},},
   ],
   "templateType":"game",
