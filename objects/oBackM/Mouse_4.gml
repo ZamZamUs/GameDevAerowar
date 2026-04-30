@@ -1,9 +1,13 @@
-if(interactable){
-	global.lastXChar = data[load_sequence - 1].posX
-	global.lastYChar = data[load_sequence - 1].posY
-	
-	global.snd_play = false
-	audio_stop_sound(snd_mainmenu)
-	room_goto(Room1)
-	layer_set_visible("loadgame", false)
+if(layer_name == "loadgame"){
+	layer_set_visible(layer_name, false)
+	layer_set_visible("homemenu", true)
+} else if(layer_name == "settingtab"){
+	var data = [
+		{
+			"movement_controll": global.movement_controll,
+			"volume_config": global.volume_config
+		}
+	]
+	scr_save_data(data, "setting.json")
+	layer_set_visible(layer_name, false)
 }

@@ -29,8 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"load_sequence","filters":[],"listItems":[],"multiselect":false,"name":"load_sequence","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"textName","filters":[],"listItems":[],"multiselect":false,"name":"textName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"level1","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"layer_name","filters":[],"listItems":[],"multiselect":false,"name":"layer_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"settingtab","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
