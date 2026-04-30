@@ -1,9 +1,7 @@
-switch(iconType){
-	case 1:
-		iconType = 2
-		sprite_index = Silent
-		break
-	case 2:
-		iconType = 1
-		sprite_index = Unsilent
+if(global.snd_play){
+	global.snd_play = false
+	audio_sound_gain(snd_mainmenu, 0, 0)
+} else {
+	global.snd_play = true
+	audio_sound_gain(snd_mainmenu, 1, 0)
 }
