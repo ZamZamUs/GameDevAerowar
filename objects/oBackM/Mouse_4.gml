@@ -10,4 +10,5 @@ if(layer_name == "loadgame"){
 	]
 	scr_save_data(data, "setting.json")
 	layer_set_visible(layer_name, false)
+	layer_set_visible("homemenu", true)
 }
