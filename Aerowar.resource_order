@@ -1,5 +1,7 @@
 {
   "FolderOrderSettings":[
+    {"name":"Background_gameplay","order":12,"path":"folders/Background_gameplay.yy",},
+    {"name":"object","order":2,"path":"folders/Background_gameplay/object.yy",},
     {"name":"Character","order":7,"path":"folders/Character.yy",},
     {"name":"Ground","order":1,"path":"folders/Ground.yy",},
     {"name":"TaxiwayTexture","order":9,"path":"folders/Ground/TaxiwayTexture.yy",},
@@ -28,6 +30,8 @@
     {"name":"oBackM","order":6,"path":"objects/oBackM/oBackM.yy",},
     {"name":"oBROW","order":2,"path":"objects/oBROW/oBROW.yy",},
     {"name":"oBuilding2_1","order":3,"path":"objects/oBuilding2_1/oBuilding2_1.yy",},
+    {"name":"oBackground","order":2,"path":"objects/oBackground/oBackground.yy",},
+    {"name":"oBomberSpawner","order":1,"path":"objects/oBomberSpawner/oBomberSpawner.yy",},
     {"name":"oBuilding2","order":6,"path":"objects/oBuilding2/oBuilding2.yy",},
     {"name":"oBWASD","order":7,"path":"objects/oBWASD/oBWASD.yy",},
     {"name":"oCam","order":1,"path":"objects/oCam/oCam.yy",},
@@ -80,6 +84,7 @@
     {"name":"PlayerF","order":6,"path":"sprites/PlayerF/PlayerF.yy",},
     {"name":"PlayerL","order":9,"path":"sprites/PlayerL/PlayerL.yy",},
     {"name":"PlayerR","order":8,"path":"sprites/PlayerR/PlayerR.yy",},
+    {"name":"Ruin_City","order":8,"path":"sprites/Ruin_City/Ruin_City.yy",},
     {"name":"SerongKanan","order":4,"path":"sprites/SerongKanan/SerongKanan.yy",},
     {"name":"SerongKananA1","order":5,"path":"sprites/SerongKananA1/SerongKananA1.yy",},
     {"name":"SerongKananA2","order":6,"path":"sprites/SerongKananA2/SerongKananA2.yy",},
