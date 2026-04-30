@@ -1,5 +1,6 @@
 current_select = 1;
 current_layer_name = noone
+global.paused = false;
 
 layer_id = layer_get_id("pause")
 fade_speed = 0.1

@@ -1,3 +1,8 @@
+// toggle pause with ESC
+if (keyboard_check_pressed(vk_escape)) {
+    global.paused = !global.paused;
+}
+
 if(keyboard_check_pressed(vk_down)) {
 	if(current_select < 2) {
 		current_select += 1;

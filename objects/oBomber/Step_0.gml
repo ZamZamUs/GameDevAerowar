@@ -29,9 +29,9 @@ if (shoot_timer >= shoot_delay) {
     shoot_timer = 0;
 
     // create bullet
-    instance_create_layer(x - 20, y - 32, "Instances", oBullet);
+    instance_create_layer(x - 60, y - 32, "Instances", oBullet);
 
     // create bullet
-    instance_create_layer(x - 20, y - -30, "Instances", oBullet);
+    instance_create_layer(x - 60, y - -30, "Instances", oBullet);
 	
 }

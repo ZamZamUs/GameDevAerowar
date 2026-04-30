@@ -18,7 +18,7 @@ if (is_bursting) {
         shoot_timer = 0;
 
         // shoot bullet
-        instance_create_layer(x - 20, y - 10, "Instances", oBullet);
+        instance_create_layer(x - 100, y - 10, "Instances", oBullet);
 
         shots_fired++;
 

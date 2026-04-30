@@ -1,13 +1,6 @@
-interact_radius = 10
+sprite_index = PlayerB;
+global.paused = false;
 
-inst = noone
-target_name = noone
-tips = false
-currentTips = 3
-
-show_interact = false
-
-money = 0
-upgrade = 0
-
-global.paused = false	
+// basic variables
+tips = false;
+interact_range = 0;

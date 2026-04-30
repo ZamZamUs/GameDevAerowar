@@ -3,6 +3,8 @@ heli_sprites = [spr_heli, spr_heli1, spr_heli2];
 frame = 0;
 anim_speed = 0.2;
 
+hp = 3; // enemy health
+
 hsp = -4;
 
 if (x < -100) {
