@@ -1,24 +1,26 @@
 image_angle = point_direction(x, y, mouse_x, mouse_y)
 
-var h = 0
-var v = 0
+var forward = 0
+var strafe = 0
 
 if(global.movement_controll == "WASD"){
-	h += keyboard_check(ord("D")) - keyboard_check(ord("A"))
-	v += keyboard_check(ord("S")) - keyboard_check(ord("W"))
+	forward = keyboard_check(ord("W")) - keyboard_check(ord("S"))
+	strafe  = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+} else {
+	forward = keyboard_check(vk_up) - keyboard_check(vk_down)
+	strafe  = keyboard_check(vk_left) - keyboard_check(vk_right)
 }
 
-var len = point_distance(0, 0, h, v)
+var mx = lengthdir_x(forward * spd, image_angle) + lengthdir_x(strafe * spd, image_angle + 90)
+var my = lengthdir_y(forward * spd, image_angle) + lengthdir_y(strafe * spd, image_angle + 90)
 
-if (len > 0) {
-	h /= len
-	v /= len
-}
-
-x += h * spd
-y += v * spd
+x += mx
+y += my
 
 var hit = collision_circle(x, y, radius, oPoint, false, true)
 if(hit){
+	oInteract.show_interact = true
 	inst = hit
+} else {
+	oInteract.show_interact = false
 }

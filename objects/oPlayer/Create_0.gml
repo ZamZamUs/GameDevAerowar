@@ -6,9 +6,9 @@ if(variable_global_exists("lastXChar")){
 	y = global.lastYChar
 }
 
-spd = 1
+spd = 0.5
 
 tips = false
-radius = 15
+radius = 5
 
 inst = noone

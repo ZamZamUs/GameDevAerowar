@@ -27,7 +27,6 @@
     {"name":"oBackButton","order":16,"path":"objects/oBackButton/oBackButton.yy",},
     {"name":"oBackM","order":6,"path":"objects/oBackM/oBackM.yy",},
     {"name":"oBROW","order":2,"path":"objects/oBROW/oBROW.yy",},
-    {"name":"oBuilding2_1","order":3,"path":"objects/oBuilding2_1/oBuilding2_1.yy",},
     {"name":"oBuilding2","order":6,"path":"objects/oBuilding2/oBuilding2.yy",},
     {"name":"oBWASD","order":7,"path":"objects/oBWASD/oBWASD.yy",},
     {"name":"oCam","order":1,"path":"objects/oCam/oCam.yy",},
