@@ -1,56 +1,24 @@
-// Kecepatan gerak
-var spd = 1;
+image_angle = point_direction(x, y, mouse_x, mouse_y)
 
-// Input arah
+var h = 0
+var v = 0
 
-if(!global.paused){
-	var h = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-	var v = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-
-	// Normalisasi supaya diagonal tidak lebih cepat
-	if (h != 0 || v != 0) {
-		var len = point_distance(0, 0, h, v);
-		h /= len;
-		v /= len;
-	}
-
-	move_and_collide(h * spd, v * spd, oColl);
-
-	if (h > 0) { sprite_index = PlayerR; }
-	if (h < 0) { sprite_index = PlayerL; }
-	if (v > 0) { sprite_index =	PlayerB; }
-	if (v < 0) { sprite_index = PlayerF; }
+if(global.movement_controll == "WASD"){
+	h += keyboard_check(ord("D")) - keyboard_check(ord("A"))
+	v += keyboard_check(ord("S")) - keyboard_check(ord("W"))
 }
 
-// ini buat playerny bekerja dengan collison
-if (place_meeting(x, y, oColl))
-{
-    show_debug_message("Nabrak border!");
+var len = point_distance(0, 0, h, v)
+
+if (len > 0) {
+	h /= len
+	v /= len
 }
 
-// ini buat fullscreen sir
+x += h * spd
+y += v * spd
 
-if (keyboard_check_pressed(vk_f11))
-{
-    window_set_fullscreen(!window_get_fullscreen());
-}
-
-// interact handler
-inst = collision_circle(x, y, interact_radius, oPoint, false, true);
-
-targetName = "headquarters"
-if(currentTips < 3) {
-	switch(currentTips){
-		case 0: targetName = "headquarters" break;
-		case 1: targetName = "upgrade" break;
-		case 2: targetName = "start" break;
-	}
-} else {
-	tips = false
-}
-
-if (inst != noone) {
-	oInteract.show_interact = true
-} else {
-	oInteract.show_interact = false
+var hit = collision_circle(x, y, radius, oPoint, false, true)
+if(hit){
+	inst = hit
 }
