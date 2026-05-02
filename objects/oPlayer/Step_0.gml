@@ -5,7 +5,7 @@ var strafe = 0
 
 if(global.movement_controll == "WASD"){
 	forward = keyboard_check(ord("W")) - keyboard_check(ord("S"))
-	strafe  = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+	strafe  = keyboard_check(ord("A")) - keyboard_check(ord("D"))
 } else {
 	forward = keyboard_check(vk_up) - keyboard_check(vk_down)
 	strafe  = keyboard_check(vk_left) - keyboard_check(vk_right)
