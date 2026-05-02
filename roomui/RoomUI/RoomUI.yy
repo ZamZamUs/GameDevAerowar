@@ -2,6 +2,24 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUIFolder":"","%Name":"DialogFrame","children":[
+        {"$GMRUILayer":"v1","%Name":"dialog_layer","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"index","alignContent":2,"alignItems":2,"children":[
+                {"$GMRFlexPanel":"","%Name":"dialog_tab","alignItems":2,"children":[
+                    {"$GMRFlexPanel":"","%Name":"Profile","alignItems":2,"children":[
+                        {"$GMRSpriteGraphic":"v1","%Name":"graphic_3BE866D","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3BE866D","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.8,"scaleY":1.8,"spriteId":{"name":"spr_profile","path":"sprites/spr_profile/spr_profile.yy",},"x":0.0,"y":0.0,},
+                      ],"flexDirection":0,"height":{"unit":3,"value":135.0,},"justifyContent":1,"marginLeft":{"unit":1,"value":23.0,},"name":"Profile","nodeColour":4286859506,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":135.0,},},
+                    {"$GMRFlexPanel":"","%Name":"Box_Text","alignItems":1,"children":[
+                        {"$GMRFlexPanel":"","%Name":"Text","alignItems":2,"children":[
+                            {"$GMRTextItem":"v3","%Name":"text_7128ACB5","alignment":0,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_dialog","path":"fonts/fnt_dialog/fnt_dialog.yy",},"frameH":0.0,"frameW":0.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"text_7128ACB5","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"Lorem lorem lorem lorem","wrap":false,"x":0.0,"y":0.0,},
+                          ],"flexDirection":0,"height":{"unit":3,"value":38.0,},"justifyContent":1,"name":"Text","nodeColour":4294096200,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":193.0,},},
+                      ],"flexDirection":0,"height":{"unit":1,"value":200.0,},"justifyContent":0,"marginLeft":{"unit":1,"value":20.0,},"marginTop":{"unit":1,"value":40.0,},"name":"Box_Text","nodeColour":4294096200,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":900.0,},},
+                    {"$GMRSpriteGraphic":"v1","%Name":"graphic_2A96D3F5","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2A96D3F5","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.8,"scaleY":1.8,"spriteId":{"name":"spr_bar","path":"sprites/spr_bar/spr_bar.yy",},"x":-603.0,"y":-144.0,},
+                  ],"flexDirection":2,"height":{"unit":1,"value":288.0,},"justifyContent":0,"marginBottom":{"unit":1,"value":30.0,},"name":"dialog_tab","nodeColour":4282970706,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":1206.0,},},
+              ],"flexDirection":0,"flexWrap":1,"height":{"unit":2,"value":100.0,},"justifyContent":2,"name":"index","nodeColour":4294068336,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":100.0,},},
+            {"$GMRSpriteGraphic":"v1","%Name":"graphic_1C77CDA0","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1C77CDA0","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"backgrounddialog","path":"sprites/backgrounddialog/backgrounddialog.yy",},"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"dialog_layer","nodeColour":4282950130,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"locked":false,"name":"DialogFrame","nodeColour":4292080200,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
     {"$GMRUILayer":"v1","%Name":"loading","alignItems":2,"children":[
         {"$GMRFlexPanel":"","%Name":"FlexPanel_6","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"FlexPanel_7","alignItems":2,"alignSelf":2,"children":[

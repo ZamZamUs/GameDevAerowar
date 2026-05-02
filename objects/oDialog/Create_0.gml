@@ -1,10 +1,10 @@
-event_inherited(); // ← THIS FIXES YOUR ERROR
+event_inherited();
 
 dialogue = [
     "Hello there...",
-    "This text types out nicely.",
-    "Press SPACE to continue.",
-	"And Yeah I hope this Help's..."
+    "Welcome back to your assignment",
+    "Are you ready for today's assignment?",
+	"Okay, let's choose your assignment"
 ];
 
 index = 0;

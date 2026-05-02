@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Sprite",
-    "path":"folders/GUI/Sprite.yy",
+    "path":"folders/GUI/Dialog_Asset/Sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
