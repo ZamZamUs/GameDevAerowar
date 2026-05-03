@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"Sprite",
-    "path":"folders/GUI/Setting Asset/Sprite.yy",
+    "path":"folders/GUI/Setting_Asset/Sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -12,8 +12,8 @@
   "name":"oVOLM",
   "overriddenProperties":[],
   "parent":{
-    "name":"Setting Asset",
-    "path":"folders/GUI/Setting Asset.yy",
+    "name":"Setting_Asset",
+    "path":"folders/GUI/Setting_Asset.yy",
   },
   "parentObjectId":null,
   "persistent":false,
