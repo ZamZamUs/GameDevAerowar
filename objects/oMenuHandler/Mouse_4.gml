@@ -12,6 +12,7 @@ if(function_heading == "game"){
 		    "posY":64.0,
 		    "dialog":0.0
 		}]
+		global.snd_play = false
 		scr_save_data(data, "save.json")
 		layer_set_visible("homemenu", false)
 		layer_set_visible("loadgame", false)
