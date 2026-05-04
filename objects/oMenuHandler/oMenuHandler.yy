@@ -14,7 +14,10 @@
     "name":"GUI",
     "path":"folders/GUI.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oOnStart",
+    "path":"objects/oOnStart/oOnStart.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
