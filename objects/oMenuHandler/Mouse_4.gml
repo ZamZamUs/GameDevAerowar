@@ -3,6 +3,7 @@ if(function_heading == "game"){
 		layer_set_visible("homemenu", false)
 		layer_set_visible("loadgame", true)
 	} else {
+		room_goto(Room1)
 		layer_set_visible("homemenu", false)
 		layer_set_visible("loadgame", false)
 	}
