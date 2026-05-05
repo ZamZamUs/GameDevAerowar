@@ -13,6 +13,20 @@
     {"name":"Sprite","order":14,"path":"folders/GUI/Sprite.yy",},
     {"name":"Music","order":11,"path":"folders/Music.yy",},
     {"name":"NotPriority","order":3,"path":"folders/NotPriority.yy",},
+<<<<<<< Updated upstream
+=======
+    {"name":"Plane","order":11,"path":"folders/Plane.yy",},
+    {"name":"Enemy","order":1,"path":"folders/Plane/Enemy.yy",},
+    {"name":"bomber","order":1,"path":"folders/Plane/Enemy/bomber.yy",},
+    {"name":"object","order":1,"path":"folders/Plane/Enemy/bomber/object.yy",},
+    {"name":"script","order":2,"path":"folders/Plane/Enemy/bomber/script.yy",},
+    {"name":"object","order":4,"path":"folders/Plane/Enemy/heli/object.yy",},
+    {"name":"script","order":3,"path":"folders/Plane/Enemy/heli/script.yy",},
+    {"name":"ratattaa","order":3,"path":"folders/Plane/Enemy/ratattaa.yy",},
+    {"name":"Player","order":2,"path":"folders/Plane/Player.yy",},
+    {"name":"Sistem-Game","order":14,"path":"folders/Sistem-Game.yy",},
+    {"name":"Score","order":1,"path":"folders/Sistem-Game/Score.yy",},
+>>>>>>> Stashed changes
     {"name":"Sistem","order":4,"path":"folders/Sistem.yy",},
     {"name":"ForTexture","order":3,"path":"folders/Sistem/ForTexture.yy",},
     {"name":"InteractOnly","order":10,"path":"folders/Sistem/InteractOnly.yy",},
@@ -21,14 +35,27 @@
     {"name":"object","order":2,"path":"folders/talk/object.yy",},
   ],
   "ResourceOrderSettings":[
+<<<<<<< Updated upstream
     {"name":"fnt_dialog","order":3,"path":"fonts/fnt_dialog/fnt_dialog.yy",},
     {"name":"fnt_loadmenu","order":2,"path":"fonts/fnt_loadmenu/fnt_loadmenu.yy",},
     {"name":"fnt_menu","order":1,"path":"fonts/fnt_menu/fnt_menu.yy",},
+=======
+    {"name":"fnt_dialog","order":2,"path":"fonts/fnt_dialog/fnt_dialog.yy",},
+    {"name":"fnt_main","order":1,"path":"fonts/fnt_main/fnt_main.yy",},
+    {"name":"fnt_menu","order":2,"path":"fonts/fnt_menu/fnt_menu.yy",},
+    {"name":"score1","order":1,"path":"fonts/score1/score1.yy",},
+    {"name":"score2","order":2,"path":"fonts/score2/score2.yy",},
+>>>>>>> Stashed changes
     {"name":"ConfirmSC","order":6,"path":"objects/ConfirmSC/ConfirmSC.yy",},
     {"name":"oBackM","order":6,"path":"objects/oBackM/oBackM.yy",},
     {"name":"oBROW","order":2,"path":"objects/oBROW/oBROW.yy",},
     {"name":"oBuilding2","order":6,"path":"objects/oBuilding2/oBuilding2.yy",},
+<<<<<<< Updated upstream
     {"name":"oBWASD","order":7,"path":"objects/oBWASD/oBWASD.yy",},
+=======
+    {"name":"oBullet","order":1,"path":"objects/oBullet/oBullet.yy",},
+    {"name":"oBullet1","order":2,"path":"objects/oBullet1/oBullet1.yy",},
+>>>>>>> Stashed changes
     {"name":"oCam","order":1,"path":"objects/oCam/oCam.yy",},
     {"name":"oJet","order":4,"path":"objects/oJet/oJet.yy",},
     {"name":"oLoad","order":15,"path":"objects/oLoad/oLoad.yy",},
@@ -81,8 +108,20 @@
     {"name":"SettingTab","order":2,"path":"sprites/SettingTab/SettingTab.yy",},
     {"name":"Silent","order":6,"path":"sprites/Silent/Silent.yy",},
     {"name":"SliceL","order":7,"path":"sprites/SliceL/SliceL.yy",},
+<<<<<<< Updated upstream
     {"name":"spr_box","order":4,"path":"sprites/spr_box/spr_box.yy",},
     {"name":"spr_profile","order":1,"path":"sprites/spr_profile/spr_profile.yy",},
+=======
+    {"name":"spr_bullet_1","order":3,"path":"sprites/spr_bullet_1/spr_bullet_1.yy",},
+    {"name":"spr_effect_1","order":3,"path":"sprites/spr_effect_1/spr_effect_1.yy",},
+    {"name":"spr_effect_2","order":4,"path":"sprites/spr_effect_2/spr_effect_2.yy",},
+    {"name":"spr_effect_3","order":3,"path":"sprites/spr_effect_3/spr_effect_3.yy",},
+    {"name":"spr_effect","order":5,"path":"sprites/spr_effect/spr_effect.yy",},
+    {"name":"spr_heart","order":2,"path":"sprites/spr_heart/spr_heart.yy",},
+    {"name":"spr_heli1","order":1,"path":"sprites/spr_heli1/spr_heli1.yy",},
+    {"name":"spr_heli2","order":2,"path":"sprites/spr_heli2/spr_heli2.yy",},
+    {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
+>>>>>>> Stashed changes
     {"name":"Sprite16","order":1,"path":"sprites/Sprite16/Sprite16.yy",},
     {"name":"Sprite17","order":2,"path":"sprites/Sprite17/Sprite17.yy",},
     {"name":"Sprite31","order":3,"path":"sprites/Sprite31/Sprite31.yy",},

@@ -2,9 +2,15 @@
   "$GMSprite":"v2",
   "%Name":"spr_profile",
   "bboxMode":0,
+<<<<<<< Updated upstream:sprites/spr_profile/spr_profile.yy
   "bbox_bottom":134,
   "bbox_left":0,
   "bbox_right":134,
+=======
+  "bbox_bottom":27,
+  "bbox_left":0,
+  "bbox_right":29,
+>>>>>>> Stashed changes:sprites/spr_heart/spr_heart.yy
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +22,11 @@
   ],
   "gridX":0,
   "gridY":0,
+<<<<<<< Updated upstream:sprites/spr_profile/spr_profile.yy
   "height":135,
+=======
+  "height":28,
+>>>>>>> Stashed changes:sprites/spr_heart/spr_heart.yy
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"94fad719-d26b-4b2d-baf1-3d942708b759","blendMode":0,"displayName":"default","isLocked":false,"name":"94fad719-d26b-4b2d-baf1-3d942708b759","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -75,8 +85,13 @@
     ],
     "visibleRange":null,
     "volume":1.0,
+<<<<<<< Updated upstream:sprites/spr_profile/spr_profile.yy
     "xorigin":0,
     "yorigin":0,
+=======
+    "xorigin":-10,
+    "yorigin":-3,
+>>>>>>> Stashed changes:sprites/spr_heart/spr_heart.yy
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -86,5 +101,9 @@
   },
   "type":0,
   "VTile":false,
+<<<<<<< Updated upstream:sprites/spr_profile/spr_profile.yy
   "width":135,
+=======
+  "width":30,
+>>>>>>> Stashed changes:sprites/spr_heart/spr_heart.yy
 }

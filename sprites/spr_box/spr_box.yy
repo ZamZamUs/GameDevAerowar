@@ -2,10 +2,17 @@
   "$GMSprite":"v2",
   "%Name":"spr_box",
   "bboxMode":0,
+<<<<<<< Updated upstream:sprites/spr_box/spr_box.yy
   "bbox_bottom":79,
   "bbox_left":0,
   "bbox_right":239,
   "bbox_top":0,
+=======
+  "bbox_bottom":921,
+  "bbox_left":120,
+  "bbox_right":740,
+  "bbox_top":332,
+>>>>>>> Stashed changes:sprites/spr_player/spr_player.yy
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -75,8 +82,13 @@
     ],
     "visibleRange":null,
     "volume":1.0,
+<<<<<<< Updated upstream:sprites/spr_box/spr_box.yy
     "xorigin":0,
     "yorigin":0,
+=======
+    "xorigin":690,
+    "yorigin":627,
+>>>>>>> Stashed changes:sprites/spr_player/spr_player.yy
   },
   "swatchColours":null,
   "swfPrecision":0.5,
