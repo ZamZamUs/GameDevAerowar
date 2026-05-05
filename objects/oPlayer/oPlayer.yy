@@ -14,7 +14,10 @@
     "name":"Character",
     "path":"folders/Character.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oColl",
+    "path":"objects/oColl/oColl.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
