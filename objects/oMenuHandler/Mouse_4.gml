@@ -1,5 +1,5 @@
 if(function_heading == "game"){
-	if(isLoad){
+	if(global.isLoad){
 		layer_set_visible("homemenu", false)
 		layer_set_visible("loadgame", true)
 	} else {
