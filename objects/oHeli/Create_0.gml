@@ -27,3 +27,4 @@ shots_fired = 0;
 max_shots = 3;
 
 is_bursting = true;
+
