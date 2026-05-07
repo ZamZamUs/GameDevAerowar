@@ -1,3 +1,7 @@
+effect_frame = 0;
+effect_speed = 0.4;
+is_firing = false;
+
 // ==========================
 // CREATE EVENT - oArmy
 // ==========================
@@ -39,3 +43,5 @@ take_damage = function(damage_type)
 
     alarm[0] = 30;
 };
+
+global.score = 0;

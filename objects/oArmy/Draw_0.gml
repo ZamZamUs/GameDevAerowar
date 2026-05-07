@@ -1,9 +1,3 @@
-// Draw army sprite
-draw_self();
-
-// Gambar pesawat
-draw_sprite_ext(spr_player, 0, x, y, image_xscale, image_yscale, image_angle, c_white, 1);
-
 // Api mesin
 var back_x = x - 20;
 var back_y = y;
@@ -25,3 +19,10 @@ if (is_dead)
     draw_set_color(c_red);
     draw_text(room_width/2 - 40, room_height/2, "GAME OVER");
 }
+
+// draw effect ONLY when firing
+if (is_firing) {
+    draw_sprite(spr_effet, floor(effect_frame), x - -8, y - 23);
+}
+
+draw_self();

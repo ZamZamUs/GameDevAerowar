@@ -14,10 +14,10 @@ if (shoot_timer > 0) shoot_timer -= 1;
 
 if (keyboard_check(vk_space) && shoot_timer <= 0)
 {
-    var b1 = instance_create_layer(x, y - 10, "Instances", oBullet);
+    var b1 = instance_create_layer(x, y - 10, "Instances", oBullet1);
     b1.hspeed = shoot_speed;
 
-    var b2 = instance_create_layer(x, y + 10, "Instances", oBullet);
+    var b2 = instance_create_layer(x, y + 10, "Instances", oBullet1);
     b2.hspeed = shoot_speed;
 
     shoot_timer = shoot_delay;
@@ -27,4 +27,27 @@ if (keyboard_check(vk_space) && shoot_timer <= 0)
 if (invincible_timer > 0)
 {
     invincible_timer -= 1;
+}
+
+// Hold Space to keep firing
+if (keyboard_check(vk_space)) {
+    is_firing = true;
+} else {
+    is_firing = false;
+    effect_frame = 0; // reset when not firing
+}
+
+// Animate only when firing
+if (is_firing) {
+    effect_frame += effect_speed;
+
+    // loop animation smoothly
+    if (effect_frame >= sprite_get_number(spr_effet)) {
+        effect_frame = 0;
+    }
+}
+//death
+if (hp <= 0) {
+    instance_create_layer(0, 0, "GUI", obj_death_menu);
+    instance_destroy(); // remove player
 }
