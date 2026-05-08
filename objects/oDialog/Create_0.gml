@@ -5,4 +5,6 @@ dialogue = [
 	"Lets choose your assignment"
 ]
 
+isSelect = false
+
 text_speed = 0.3

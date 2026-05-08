@@ -21,11 +21,16 @@ if(isDialog){
 				full_text = dialogue[index]
 				text_length = 0
 				is_typing = true
+			} else if(index < array_length(dialogue) + 1){
+				is_typing = false
+				text_length = 0
+				layer_set_visible("option_selection", true)
 			} else {
 				isDialog = false
 				is_typing = false
 				index = 0
 				text_length = 0
+				layer_set_visible("option_selection", false)
 				layer_set_visible(layerID, false)
 				room_goto(Room1)
 			}

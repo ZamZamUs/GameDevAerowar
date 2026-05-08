@@ -337,8 +337,8 @@
   "maintainGms1Font":false,
   "name":"fnt_dialog",
   "parent":{
-    "name":"object",
-    "path":"folders/talk/object.yy",
+    "name":"Font",
+    "path":"folders/GUI/Font.yy",
   },
   "pointRounding":0,
   "ranges":[

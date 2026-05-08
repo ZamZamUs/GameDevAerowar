@@ -28,8 +28,8 @@
     {"name":"inst_502C5D63","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_60A2066B","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_7DA57A20","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_46FC092B","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_4D4FB7E4","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_63C05872","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_6D57D8C","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

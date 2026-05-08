@@ -74,6 +74,7 @@
     {"id":{"name":"Dialog","path":"rooms/Dialog/Dialog.yy",},},
     {"id":{"name":"Mainmenu","path":"rooms/Mainmenu/Mainmenu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"TesterRoom","path":"rooms/TesterRoom/TesterRoom.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
     {"id":{"name":"SCsaveload","path":"scripts/SCsaveload/SCsaveload.yy",},},
     {"id":{"name":"snd_mainmenu","path":"sounds/snd_mainmenu/snd_mainmenu.yy",},},
@@ -140,6 +141,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Mainmenu","path":"rooms/Mainmenu/Mainmenu.yy",},},
+    {"roomId":{"name":"TesterRoom","path":"rooms/TesterRoom/TesterRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Dialog","path":"rooms/Dialog/Dialog.yy",},},
   ],
