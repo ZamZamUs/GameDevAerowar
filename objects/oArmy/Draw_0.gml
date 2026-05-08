@@ -25,4 +25,8 @@ if (is_firing) {
     draw_sprite(spr_effet, floor(effect_frame), x - -8, y - 23);
 }
 
+if (is_firing) {
+    draw_sprite(spr_effet, floor(effect_frame), x - -9, y + 20);
+}
+
 draw_self();

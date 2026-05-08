@@ -2,13 +2,15 @@ effect_frame = 0;
 effect_speed = 0.4;
 is_firing = false;
 
+hp = 5;
+
 // ==========================
 // CREATE EVENT - oArmy
 // ==========================
 
 move_speed = 5;
 
-shoot_delay = 5;
+shoot_delay = 10;
 shoot_timer = 0;
 shoot_speed = 12;
 
@@ -20,11 +22,11 @@ invincible_timer = 0;
 is_dead = false;
 
 // HEALTH
-hearts = 5; // 🔥 LANGSUNG MATI SEKALI KENA
+hearts = 5; //
 
-// ==========================
+global.game_paused = false;
+
 // FUNCTION DAMAGE
-// ==========================
 take_damage = function(damage_type)
 {
     if (is_dead) return;

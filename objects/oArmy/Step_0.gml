@@ -14,10 +14,10 @@ if (shoot_timer > 0) shoot_timer -= 1;
 
 if (keyboard_check(vk_space) && shoot_timer <= 0)
 {
-    var b1 = instance_create_layer(x, y - 10, "Instances", oBullet1);
+    var b1 = instance_create_layer(x - 17, y - 22, "Instances", oBullet1);
     b1.hspeed = shoot_speed;
 
-    var b2 = instance_create_layer(x, y + 10, "Instances", oBullet1);
+    var b2 = instance_create_layer(x - 19, y + 21, "Instances", oBullet1);
     b2.hspeed = shoot_speed;
 
     shoot_timer = shoot_delay;
@@ -48,6 +48,6 @@ if (is_firing) {
 }
 //death
 if (hp <= 0) {
-    instance_create_layer(0, 0, "GUI", obj_death_menu);
+    instance_create_layer(0, 0, "Instances", obj_death_menu);
     instance_destroy(); // remove player
 }
