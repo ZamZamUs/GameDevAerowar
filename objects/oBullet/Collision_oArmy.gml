@@ -1,6 +1,6 @@
-other.hp -= 1;
+global.hp -= 1;
 
-if (other.hp <= 0)
+if (global.hp <= 0)
 {
     other.sprite_index = spr_explode;
     other.image_index = 0;

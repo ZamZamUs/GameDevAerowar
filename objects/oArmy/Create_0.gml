@@ -2,7 +2,11 @@ effect_frame = 0;
 effect_speed = 0.4;
 is_firing = false;
 
-hp = 5;
+engine_frame = 0;
+engine_speed = 0.3;
+
+global.hp = 6;
+global.max_hp = 6;
 
 // ==========================
 // CREATE EVENT - oArmy

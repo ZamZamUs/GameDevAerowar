@@ -3,7 +3,7 @@ sprite_index = spr_bomber;
 // movement speed (fast)
 hsp = -5;
 
-hp = 2; // enemy health
+hp = 5; // enemy health
 
 // hover setup
 base_y = y;

@@ -9,6 +9,7 @@ y += v * move_speed;
 x = clamp(x, 0, room_width);
 y = clamp(y, 0, room_height);
 
+
 // Shoot
 if (shoot_timer > 0) shoot_timer -= 1;
 
@@ -47,7 +48,15 @@ if (is_firing) {
     }
 }
 //death
-if (hp <= 0) {
+if (global.hp <= 0) {
     instance_create_layer(0, 0, "Instances", obj_death_menu);
     instance_destroy(); // remove player
+}
+
+// Mesin
+engine_frame += engine_speed;
+
+if (engine_frame >= sprite_get_number(Mesin))
+{
+    engine_frame = 0;
 }

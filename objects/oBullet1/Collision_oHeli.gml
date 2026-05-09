@@ -1,9 +1,7 @@
 other.hp -= 1;
 
-// enemy dies
 if (other.hp <= 0)
 {
-    // create explosion
     instance_create_layer(
         other.x,
         other.y,
@@ -11,7 +9,18 @@ if (other.hp <= 0)
         oExplosion
     );
 
-    global.score += 81;
+    // random shield drop
+    if (irandom(4) == 0)
+    {
+        instance_create_layer(
+            other.x,
+            other.y,
+            "Instances",
+            obj_shield
+        );
+    }
+
+    global.score += 72;
 
     with (other)
     {
@@ -19,5 +28,4 @@ if (other.hp <= 0)
     }
 }
 
-// destroy bullet
 instance_destroy();
