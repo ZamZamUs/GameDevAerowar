@@ -69,6 +69,7 @@
     {"name":"oVOLM","order":4,"path":"objects/oVOLM/oVOLM.yy",},
     {"name":"Score","order":7,"path":"objects/Score/Score.yy",},
     {"name":"Dialog","order":9,"path":"rooms/Dialog/Dialog.yy",},
+    {"name":"Gameplay","order":15,"path":"rooms/Gameplay/Gameplay.yy",},
     {"name":"Mainmenu","order":10,"path":"rooms/Mainmenu/Mainmenu.yy",},
     {"name":"TesterRoom","order":12,"path":"rooms/TesterRoom/TesterRoom.yy",},
     {"name":"RoomUI","order":5,"path":"roomui/RoomUI/RoomUI.yy",},
