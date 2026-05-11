@@ -159,8 +159,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Gameplay","path":"rooms/Gameplay/Gameplay.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Gameplay","path":"rooms/Gameplay/Gameplay.yy",},},
     {"roomId":{"name":"Dialog","path":"rooms/Dialog/Dialog.yy",},},
     {"roomId":{"name":"Mainmenu","path":"rooms/Mainmenu/Mainmenu.yy",},},
   ],
