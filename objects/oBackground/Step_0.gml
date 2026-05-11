@@ -1,4 +1,7 @@
-if (image_index >= image_number - 1)
-{
-    instance_destroy();
+// move left
+x += scroll_speed;
+
+// when fully off screen → reset
+if (x <= -sprite_width) {
+    x = 0;
 }

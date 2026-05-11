@@ -1,3 +1,9 @@
-sprite_index = spr_explode;
+paused = false;
 
-image_speed = 0.4;
+menu_scale = 0;
+
+menu_index = 0;
+
+menu[0] = "RESUME";
+menu[1] = "RESTART";
+menu[2] = "MENU";

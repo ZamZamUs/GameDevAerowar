@@ -1,4 +1,11 @@
-if (image_index >= image_number - 1)
-{
-    instance_destroy();
+if (keyboard_check_pressed(ord("R"))) {
+    global.game_paused = false;
+    room_restart();
 }
+
+if (keyboard_check_pressed(ord("M"))) {
+    global.game_paused = false;
+    room_goto(Room1); // your main menu room
+}
+
+menu_scale = lerp(menu_scale, 1, 0.1);

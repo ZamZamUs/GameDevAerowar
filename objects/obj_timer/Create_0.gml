@@ -1,3 +1,3 @@
-sprite_index = spr_explode;
+global.game_paused = false;
 
-image_speed = 0.4;
+game_timer = 60 * 99;

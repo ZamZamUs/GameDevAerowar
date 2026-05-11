@@ -1,4 +1,4 @@
-if (image_index >= image_number - 1)
+if (x < -100)
 {
     instance_destroy();
 }
