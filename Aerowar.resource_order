@@ -59,6 +59,7 @@
     {"name":"oMenuHandler","order":9,"path":"objects/oMenuHandler/oMenuHandler.yy",},
     {"name":"oMenuMusic","order":8,"path":"objects/oMenuMusic/oMenuMusic.yy",},
     {"name":"oOnStart","order":13,"path":"objects/oOnStart/oOnStart.yy",},
+    {"name":"oOnStartGP","order":14,"path":"objects/oOnStartGP/oOnStartGP.yy",},
     {"name":"oPaused","order":13,"path":"objects/oPaused/oPaused.yy",},
     {"name":"oPoint","order":1,"path":"objects/oPoint/oPoint.yy",},
     {"name":"oSaved","order":8,"path":"objects/oSaved/oSaved.yy",},
