@@ -1,6 +1,1 @@
-sprite_index = PlayerB;
-global.paused = false;
-
-// basic variables
-tips = false;
-interact_range = 0;
+image_speed = 0.1;

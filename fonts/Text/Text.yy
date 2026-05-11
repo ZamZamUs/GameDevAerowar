@@ -211,7 +211,7 @@
   "name":"Text",
   "parent":{
     "name":"GamePlay Sistem",
-    "path":"folders/GamePlay Sistem.yy",
+    "path":"folders/Character/GamePlay Sistem.yy",
   },
   "pointRounding":0,
   "ranges":[

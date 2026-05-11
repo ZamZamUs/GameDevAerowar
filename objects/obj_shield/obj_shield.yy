@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Droper",
-    "path":"folders/GamePlay Sistem/Droper.yy",
+    "path":"folders/Character/GamePlay Sistem/Droper.yy",
   },
   "parentObjectId":null,
   "persistent":false,

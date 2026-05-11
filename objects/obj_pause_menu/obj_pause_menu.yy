@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"GamePlay Sistem",
-    "path":"folders/GamePlay Sistem.yy",
+    "path":"folders/Character/GamePlay Sistem.yy",
   },
   "parentObjectId":null,
   "persistent":false,

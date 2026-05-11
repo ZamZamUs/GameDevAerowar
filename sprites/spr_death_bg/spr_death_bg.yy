@@ -45,7 +45,7 @@
   "origin":9,
   "parent":{
     "name":"sprite",
-    "path":"folders/GamePlay Sistem/sprite.yy",
+    "path":"folders/Character/GamePlay Sistem/sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
