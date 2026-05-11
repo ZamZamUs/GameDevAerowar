@@ -38,7 +38,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.221",
+    "IDEVersion":"2024.14.4.222",
   },
   "name":"Aerowar",
   "resources":[
@@ -121,6 +121,7 @@
     {"id":{"name":"spr_bar","path":"sprites/spr_bar/spr_bar.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
     {"id":{"name":"spr_profile","path":"sprites/spr_profile/spr_profile.yy",},},
+    {"id":{"name":"spr_rafh","path":"sprites/spr_rafh/spr_rafh.yy",},},
     {"id":{"name":"sprBG","path":"sprites/sprBG/sprBG.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},},
@@ -128,7 +129,6 @@
     {"id":{"name":"Sprite17","path":"sprites/Sprite17/Sprite17.yy",},},
     {"id":{"name":"Sprite28","path":"sprites/Sprite28/Sprite28.yy",},},
     {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},},
-    {"id":{"name":"Sprite59","path":"sprites/Sprite59/Sprite59.yy",},},
     {"id":{"name":"StopAreaTW","path":"sprites/StopAreaTW/StopAreaTW.yy",},},
     {"id":{"name":"ThreeTW","path":"sprites/ThreeTW/ThreeTW.yy",},},
     {"id":{"name":"Tree2","path":"sprites/Tree2/Tree2.yy",},},

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite59",
-    "path":"sprites/Sprite59/Sprite59.yy",
+    "name":"spr_rafh",
+    "path":"sprites/spr_rafh/spr_rafh.yy",
   },
   "spriteMaskId":null,
   "visible":true,
