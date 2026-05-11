@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PlayerB",
-    "path":"sprites/PlayerB/PlayerB.yy",
+    "name":"Sprite59",
+    "path":"sprites/Sprite59/Sprite59.yy",
   },
   "spriteMaskId":null,
   "visible":true,

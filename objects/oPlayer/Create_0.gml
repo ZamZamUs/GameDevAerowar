@@ -1,4 +1,4 @@
-sprite_index = PlayerB
+sprite_index = Sprite59
 global.paused = false
 
 if(variable_global_exists("lastXChar")){
