@@ -24,7 +24,7 @@
     {"$GMFolder":"","%Name":"Setting Asset","folderPath":"folders/GUI/Setting Asset.yy","name":"Setting Asset","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprite","folderPath":"folders/GUI/Setting Asset/Sprite.yy","name":"Sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprite","folderPath":"folders/GUI/Sprite.yy","name":"Sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"NotPriority","folderPath":"folders/NotPriority.yy","name":"NotPriority","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"NotPriority","folderPath":"folders/Sistem/NotPriority.yy","name":"NotPriority","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Plane","folderPath":"folders/Plane.yy","name":"Plane","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Anim Explode","folderPath":"folders/Plane/Anim Explode.yy","name":"Anim Explode","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemy","folderPath":"folders/Plane/Enemy.yy","name":"Enemy","resourceType":"GMFolder","resourceVersion":"2.0",},

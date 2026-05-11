@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"NotPriority",
-    "path":"folders/NotPriority.yy",
+    "path":"folders/Sistem/NotPriority.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
