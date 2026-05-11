@@ -6,7 +6,7 @@
   "name":"scr_animate_sprites",
   "parent":{
     "name":"script",
-    "path":"folders/Plane/Enemy/bomber/script.yy",
+    "path":"folders/Plane/Enemy/heli/script.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
