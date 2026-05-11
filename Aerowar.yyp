@@ -63,6 +63,8 @@
     {"id":{"name":"oArmy","path":"objects/oArmy/oArmy.yy",},},
     {"id":{"name":"oBackground","path":"objects/oBackground/oBackground.yy",},},
     {"id":{"name":"obj_death_menu","path":"objects/obj_death_menu/obj_death_menu.yy",},},
+    {"id":{"name":"obj_pause_controller","path":"objects/obj_pause_controller/obj_pause_controller.yy",},},
+    {"id":{"name":"obj_pause_menu","path":"objects/obj_pause_menu/obj_pause_menu.yy",},},
     {"id":{"name":"obj_shield","path":"objects/obj_shield/obj_shield.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"oBomber","path":"objects/oBomber/oBomber.yy",},},

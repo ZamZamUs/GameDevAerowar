@@ -1,3 +1,4 @@
+if (global.game_paused) exit;
 if (!global.game_paused)
 {
     game_timer -= 1;

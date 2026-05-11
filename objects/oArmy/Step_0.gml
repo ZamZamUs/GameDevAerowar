@@ -1,3 +1,4 @@
+if (global.game_paused) exit;
 if (is_dead) exit;
 
 var h = keyboard_check(ord("D")) - keyboard_check(ord("A"));

@@ -1,3 +1,4 @@
+if (global.game_paused) exit;
 scr_animate_sprites(heli_sprites, anim_speed);
 
 x += hsp;

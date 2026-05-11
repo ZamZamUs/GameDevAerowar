@@ -1,3 +1,4 @@
+if (global.game_paused) exit;
 // count time
 spawn_timer++;
 

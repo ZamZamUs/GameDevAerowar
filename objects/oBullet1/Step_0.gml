@@ -1,3 +1,4 @@
+if (global.game_paused) exit;
 // gerak ke kanan
 x += lengthdir_x(speed, direction);
 y += lengthdir_y(speed, direction);

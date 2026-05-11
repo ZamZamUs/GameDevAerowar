@@ -1,3 +1,4 @@
+if (global.game_paused) exit;
 // move fast to the left
 x += hsp;
 

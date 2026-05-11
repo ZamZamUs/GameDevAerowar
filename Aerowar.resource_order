@@ -39,6 +39,8 @@
     {"name":"Heart","order":5,"path":"objects/Heart/Heart.yy",},
     {"name":"oBackground","order":2,"path":"objects/oBackground/oBackground.yy",},
     {"name":"obj_death_menu","order":2,"path":"objects/obj_death_menu/obj_death_menu.yy",},
+    {"name":"obj_pause_controller","order":7,"path":"objects/obj_pause_controller/obj_pause_controller.yy",},
+    {"name":"obj_pause_menu","order":8,"path":"objects/obj_pause_menu/obj_pause_menu.yy",},
     {"name":"obj_timer","order":4,"path":"objects/obj_timer/obj_timer.yy",},
     {"name":"oBomberSpawner","order":1,"path":"objects/oBomberSpawner/oBomberSpawner.yy",},
     {"name":"oBuilding2","order":6,"path":"objects/oBuilding2/oBuilding2.yy",},
