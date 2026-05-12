@@ -6,5 +6,7 @@ if (!global.game_paused)
 
 if (game_timer <= 0)
 {
+	global.mission = noone
+	global.missionActive = false
     room_goto(Room1);
 }
