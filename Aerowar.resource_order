@@ -52,7 +52,6 @@
     {"name":"oBullet1","order":8,"path":"objects/oBullet1/oBullet1.yy",},
     {"name":"oBWASD","order":7,"path":"objects/oBWASD/oBWASD.yy",},
     {"name":"oCam","order":1,"path":"objects/oCam/oCam.yy",},
-    {"name":"oGameObj","order":9,"path":"objects/oGameObj/oGameObj.yy",},
     {"name":"oJet","order":4,"path":"objects/oJet/oJet.yy",},
     {"name":"oLoad","order":15,"path":"objects/oLoad/oLoad.yy",},
     {"name":"oLoadingScreen","order":12,"path":"objects/oLoadingScreen/oLoadingScreen.yy",},

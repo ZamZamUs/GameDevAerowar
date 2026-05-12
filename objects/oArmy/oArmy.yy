@@ -15,10 +15,7 @@
     "name":"Player",
     "path":"folders/Plane/Player.yy",
   },
-  "parentObjectId":{
-    "name":"oGameObj",
-    "path":"objects/oGameObj/oGameObj.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
