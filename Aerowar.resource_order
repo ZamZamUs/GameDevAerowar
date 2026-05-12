@@ -55,7 +55,6 @@
     {"name":"oCam","order":1,"path":"objects/oCam/oCam.yy",},
     {"name":"oJet","order":4,"path":"objects/oJet/oJet.yy",},
     {"name":"oLoad","order":15,"path":"objects/oLoad/oLoad.yy",},
-    {"name":"oLoadButton","order":15,"path":"objects/oLoadButton/oLoadButton.yy",},
     {"name":"oLoadingScreen","order":12,"path":"objects/oLoadingScreen/oLoadingScreen.yy",},
     {"name":"oLoadSettingData","order":19,"path":"objects/oLoadSettingData/oLoadSettingData.yy",},
     {"name":"oMenuHandler","order":9,"path":"objects/oMenuHandler/oMenuHandler.yy",},
