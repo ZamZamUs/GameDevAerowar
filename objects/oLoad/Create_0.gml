@@ -1,3 +1,6 @@
+event_inherited()
+loadSec = load_sequence
+
 isClickable = false
 
 isLoad = file_exists("save.json")
