@@ -1,3 +1,11 @@
+if(variable_global_exists("mission")){
+	if(global.mission != noone){
+		global.missionActive = true
+	} else {
+		global.missionActive = false
+	}
+}
+
 if (!oPlayer.tips) {
 	if (oPlayer.inst != noone and oPlayer.inst.function_name == function_name) {
 	}

@@ -38,6 +38,7 @@ if (paused)
 
             case 2:
                 paused = false;
+				global.mission = noone
                 room_goto(Room1);
             break;
         }

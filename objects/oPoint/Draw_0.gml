@@ -12,3 +12,12 @@ if(oPlayer.tips){
 		draw_circle(x, y, radius, true);
 	}
 }
+
+if(variable_global_exists("missionActive")){
+	if(global.missionActive){
+		if(function_name == "start"){
+			draw_set_colour(c_yellow);
+			draw_circle(x, y, radius, true);
+		}
+	}
+}
