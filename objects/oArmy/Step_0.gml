@@ -7,7 +7,7 @@ var v = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 x += h * move_speed;
 y += v * move_speed;
 
-x = clamp(x, 0, room_width);
+x = clamp(x, 10, room_width);
 y = clamp(y, 0, room_height);
 
 
